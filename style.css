@@ -1,0 +1,36 @@
+li{
+    display: inline;
+    float: left;
+}
+ol{
+    list-style-type: none;
+    background-color: blue;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+    border-left: 2px solid black;
+}
+a:hover{
+    background-color: aqua;
+}
+li:last-child{
+    float: right;
+    border-right : 2px solid black;
+}
+.Listmenu{
+    display: inline-block;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: blue;
+    min-width: 160;
+    z-index: 1;
+    font-style: inherit;
+}
+.Listmenu:hover    .dropdown{
+    display: block;
+}
